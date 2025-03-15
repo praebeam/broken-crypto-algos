@@ -1,0 +1,12 @@
+# Object files
+*.o
+
+# Executable
+crypto
+
+# IDE specific files (optional but commonly ignored)
+.vscode/
+.idea/
+
+# macOS specific files (since you're on macOS)
+.DS_Store 
