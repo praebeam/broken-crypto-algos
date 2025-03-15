@@ -1,8 +1,8 @@
 #include <iostream>
-#include "_aes.cpp"
-#include "_rsa.cpp"
-#include "_sha256.cpp"
-#include "_dh.cpp"
+#include "aes.h"
+#include "rsa.h"
+#include "sha256.h"
+#include "dh.h"
 using namespace std;
 
 int main() {
@@ -22,7 +22,7 @@ int main() {
     string hash = SHA256("password123");
     cout << " SHA-256 Hash: " << hash << endl;
 
-    int dh_key = DH(5, 3, 23);
-    cout << " Diffie-Hellman Key: " << dh_key << endl;
+    int dhkey = DH(5, 3, 23);
+    cout << " Diffie-Hellman Key: " << dhkey << endl;
     return 0;
 }

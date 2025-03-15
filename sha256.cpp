@@ -1,3 +1,4 @@
+#include "sha256.h" 
 #include <iostream>
 #include <string>
 using namespace std;
